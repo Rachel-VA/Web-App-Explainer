@@ -1,0 +1,113 @@
+/*default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* style for the entire body display */
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9fbfd;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* style for the sections layout */
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* style for headings */
+  h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph text */
+  p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  /* style the unordered lists */
+  ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hero section */
+  .hero {
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 2rem;
+  }
+  
+  /* styling for images */
+  
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Specific image styles */
+  .intro-img {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .flowchart-img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 30px auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .roles-img {
+    width: 90%;
+    display: block;
+    margin: 40px auto 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /*styling for footer */
+  .footer {
+    background-color: #2c3e50;
+    color: #eee;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+  
+  /*styling for captions under the images*/
+  .caption {
+    font-size: 0.95rem;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
